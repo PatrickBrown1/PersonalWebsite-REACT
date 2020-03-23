@@ -4,12 +4,21 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.App-body {
+  background-color: #434956;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: 20px;
   color: white;
 }
 
@@ -22,6 +31,6 @@
   text-shadow: -1px 1px black;
   flex-direction: column;
   flex: 1;
-  font-size: calc(5px + 3vw);
+  font-size: 40px;
   justify-content: flex-start;
 }

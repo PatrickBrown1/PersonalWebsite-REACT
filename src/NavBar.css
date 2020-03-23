@@ -1,0 +1,14 @@
+.NavBar {
+    justify-content: left;
+}
+
+
+
+.NavBar-buttons {
+    align-items: right;
+}
+
+.NavBar-onebutton {
+    border: 1px black;
+    background-color: antiquewhite;
+}
