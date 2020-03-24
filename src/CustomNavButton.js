@@ -1,10 +1,19 @@
 import React from 'react';
 import './NavBar.css';
 
-const button = (props) => (
+const Button = (props) => (
     <button className='NavBar-onebutton' onClick={props.clicked}>
         {props.children}
     </button>
 );
 
-export default button;
+const ExpandingButton = (props) => (
+    <button className='NavBar-expandingbutton' onClick={props.clicked}>
+        {props.children}
+    </button>
+);
+
+export {
+    Button,
+    ExpandingButton,
+}

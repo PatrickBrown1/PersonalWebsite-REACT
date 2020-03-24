@@ -1,13 +1,21 @@
 import React from 'react';
 import './NavBar.css';
-import CustomNavButton from './CustomNavButton.js'
-
+import {Button, ExpandingButton}  from './CustomNavButton.js'
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 export default class NavBar extends React.Component {
     render() {
         return(
             <div className='NavBar'>
-                <CustomNavButton className='NavBar-onebutton'>Link 1</CustomNavButton>
-                <CustomNavButton className='NavBar-onebutton'>Link 2</CustomNavButton>
+                <Button>Link 1</Button>
+                <Button>Link 2</Button>
+                <ExpandingButton>
+                    <FaGithub size={32}/>
+                    &thinsp; GitHub
+                </ExpandingButton>
+                <ExpandingButton>
+                    <FaLinkedin size={32}/>
+                    &thinsp; LinkedIn
+                </ExpandingButton>
             </div>
         );
     }
