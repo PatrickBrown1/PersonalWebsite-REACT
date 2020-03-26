@@ -22,6 +22,3 @@ export default class NavBar extends React.Component {
         );
     }
 }
-
-//opens new tab of google.com
-//window.open("https://google.com", "_blank")
