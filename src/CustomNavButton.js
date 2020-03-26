@@ -8,7 +8,8 @@ const Button = (props) => (
 );
 
 const ExpandingButton = (props) => (
-    <button className='NavBar-expandingbutton' onClick={props.clicked}>
+    <button className='NavBar-expandingbutton' 
+            onClick={ () => window.open(props.redirect, "_blank") }>
         {props.children}
     </button>
 );
@@ -17,3 +18,4 @@ export {
     Button,
     ExpandingButton,
 }
+//

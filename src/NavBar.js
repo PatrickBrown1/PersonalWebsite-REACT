@@ -8,11 +8,13 @@ export default class NavBar extends React.Component {
             <div className='NavBar'>
                 <Button>Link 1</Button>
                 <Button>Link 2</Button>
-                <ExpandingButton>
+                <ExpandingButton
+                    redirect="https://github.com/PatrickBrown1">
                     <FaGithub size={32}/>
                     &thinsp; GitHub
                 </ExpandingButton>
-                <ExpandingButton>
+                <ExpandingButton
+                    redirect="https://www.linkedin.com/in/P-Brown">
                     <FaLinkedin size={32}/>
                     &thinsp; LinkedIn
                 </ExpandingButton>
@@ -20,3 +22,6 @@ export default class NavBar extends React.Component {
         );
     }
 }
+
+//opens new tab of google.com
+//window.open("https://google.com", "_blank")
