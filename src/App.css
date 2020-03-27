@@ -1,19 +1,33 @@
 .App {
+  z-index: 1;
   text-align: center;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  z-index: 1;
+  position: absolute;
+  top: 20vh;
+
+  text-align: center;
+  width: 100%;
+
+
+  background-size: contain;
+  background-color: rgba(255, 255, 255, 0.4);
 }
+
+
+.Title { 
+  color: rgb(100, 100, 100);
+  flex-direction: column;
+  font-size: 48px;
+}
+
+
 
 .App-body {
   background-color: #434956;
-  min-height: 50vh;
+  min-height: 200vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,13 +38,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-.Title { 
-  color: rgb(220, 220, 220);
-  text-shadow: -1px 1px black;
-  flex-direction: column;
-  flex: 1;
-  font-size: 40px;
-  justify-content: flex-start;
 }

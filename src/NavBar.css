@@ -1,12 +1,15 @@
 .NavBar {
     z-index: 2;
-    
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 10px;
+    width: 98%;
+
     display: inline-flex;
     justify-content: flex-end;
     flex-direction: row;
-    border-bottom: 100px black;
-    min-height: 50px;
-    width: 100%;
+    min-height: 6vh;
 }
 
 
