@@ -10,12 +10,13 @@ export default class NavBar extends React.Component {
                 <Button>Link 2</Button>
                 <ExpandingButton
                     redirect="https://github.com/PatrickBrown1">
-                    <FaGithub size={32}/>
+                    <FaGithub size={32} style={{verticalAlign: 'middle'}}/>
                     &thinsp; GitHub
+                    
                 </ExpandingButton>
                 <ExpandingButton
                     redirect="https://www.linkedin.com/in/P-Brown">
-                    <FaLinkedin size={32}/>
+                    <FaLinkedin size={32} style={{verticalAlign: 'middle'}}/>
                     &thinsp; LinkedIn
                 </ExpandingButton>
             </div>

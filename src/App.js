@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
 import NavBar from'./NavBar.js';
+import Background from'./Background.js';
 function App() {
   return (
     <div className="App">
       <NavBar/>
+      <Background/>
+      
       <header className="App-header">
         <p className="Title">Patrick Brown's Personal Website!</p>
       </header>

@@ -1,8 +1,10 @@
 .NavBar {
+    z-index: 2;
+    
     display: inline-flex;
     justify-content: flex-end;
     flex-direction: row;
-    
+    border-bottom: 100px black;
     min-height: 50px;
     width: 100%;
 }
@@ -30,6 +32,7 @@
 .NavBar-expandingbutton{
     justify-self: right;
     white-space: nowrap;
+    overflow: hidden;
 
     width: 50px;
     font-size: 15px;
