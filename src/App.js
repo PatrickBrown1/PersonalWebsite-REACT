@@ -22,7 +22,8 @@ class App extends React.Component {
     window.removeEventListener('scroll', this.handleScroll);
   }
   handleScroll() {
-    if(window.pageYOffset <= 0){
+    var vh20 = document.documentElement.clientHeight * .13;
+    if(window.pageYOffset <= vh20){
       this.setState({top: true});
     }
     else{
